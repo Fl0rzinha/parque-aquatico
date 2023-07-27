@@ -7,7 +7,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="#" type="image/x-icon" />
   <!-- Estilos (Link CSS) -->
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,18 +15,20 @@
   <!-- Cabeçalho -->
 
   <header>
-    <img src="images/logo.png" alt="Logo do Parque Aquático">
+    <a href="#"><img src="assets/logo.png" alt="Logo do Parque Aquático" id="logo-img"></a>
     <h1>Parque Aquático</h1>
     <!-- Links -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="atracoes.html">Atrações</a>
-      <a href="contato.html">Formulário de contato</a>
-    </nav>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <input type="text" placeholder="Pesquisar...">
-      <button type="submit">Pesquisar</button>
+    <div class="header-direita">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="atracoes.html">Atrações</a>
+        <a href="contato.html">Formulário de contato</a>
+      </nav>
+      <!-- Barra de pesquisa -->
+      <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar..."  id="pesquisar">
+        <button type="submit"><img src="assets/lupa.png" alt="lupa "></button>
+      </div>
     </div>
   </header>
 
